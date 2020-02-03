@@ -1,10 +1,9 @@
 library("data.table")
 library(DataComputing)
-library(Metrics)
 
-readDir = "../../volume/data/raw"
-writeDir = "../../volume/data/processed"
-exterDir = "../../volume/data/external"
-interDir = "../../volume/data/interim"
+readDir = "./project/volume/data/raw"
+writeDir = "./project/volume/data/processed"
+exterDir = "./project/volume/data/external"
+interDir = "./project/volume/data/interim"
 
 
